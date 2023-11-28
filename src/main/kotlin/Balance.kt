@@ -1,0 +1,1 @@
+data class Balance(var amount: Int?)
