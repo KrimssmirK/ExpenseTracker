@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faeafcaa-9fc1-4261-ac66-04905b96563f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Controller.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Model.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/View.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/temp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpenseTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExpenseTracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Balance.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Expense.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -46,9 +50,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.AppKt">
     <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppKt" />
+      <module name="ExpenseTracker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MenuKt" />
       <module name="ExpenseTracker" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,6 +68,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.AppKt" />
+        <item itemvalue="Kotlin.MenuKt" />
       </list>
     </recent_temporary>
   </component>
