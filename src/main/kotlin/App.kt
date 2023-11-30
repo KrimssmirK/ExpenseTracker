@@ -54,11 +54,18 @@ fun selectMenu(currBalance: Balance) : Boolean {
     return exit
 }
 
-fun main(args: Array<String>) {
-    val currBalance = Balance(0)
+
+fun startApp() {
+    val myBalanceDB = SQLiteDatabase()
+    val currBalance = myBalanceDB.retrieve()
     var exit = false
     while (!exit) {
         exit = selectMenu(currBalance)
     }
+    currBalance.amount?.let { myBalanceDB.update(it) }
     println("Bye!")
+}
+
+fun main(args: Array<String>) {
+    startApp()
 }
